@@ -3,8 +3,11 @@
 
 int main() {
     Calculator calc;
-    int a = 10;
-    int b = 5;
+    int a;
+    int b;
+
+    std::cout << "Enter two numbers: ";
+    std::cin >> a >> b;
 
     std::cout << "Addition: " << calc.add(a, b) << std::endl;
     std::cout << "Subtraction: " << calc.subtract(a, b) << std::endl;
