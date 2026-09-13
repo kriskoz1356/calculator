@@ -6,6 +6,8 @@ int main() {
     int a;
     int b;
 
+    std::cout << "Simple Calculator" << std::endl;
+
     std::cout << "Enter two numbers: ";
     std::cin >> a >> b;
 
